@@ -1,3 +1,4 @@
+
 :root{
     --header: blue;
     --main: white;
@@ -13,8 +14,21 @@ header {
     display: flex;
     background-color: var(--header);
     justify-content: space-between;
+    height: 100px;
+    padding: 20px;
+    
 
 }    
+
+main {
+
+    background-color: var(--main);
+}
+
+footer {
+
+    background-color: var(--footer);
+}
 
 img {
 
@@ -24,9 +38,11 @@ img {
 nav{
 
     background-color: white;
+    flex-basis: 200px;
 }
 
 button {
 
     background-color: white;
 }
+
