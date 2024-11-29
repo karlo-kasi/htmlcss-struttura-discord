@@ -59,7 +59,7 @@ footer {
 h1 {
     background-color: var(--h1);
     height: 30px;
-    width: 100px;
+    width: 300px;
 }
 
 h2 {
@@ -111,6 +111,7 @@ button {
 }
 
 .flex-container2 {
+    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,6 +132,7 @@ button {
 
 
 .flex-container4 {
+    
     display: flex;
     justify-content: center;
     align-items: center;
