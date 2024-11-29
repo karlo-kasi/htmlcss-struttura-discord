@@ -7,28 +7,47 @@
 }
 
 
+/* body {
 
+    margin: auto;
+    width: 80%;
+
+} */
 
 
 header {
     display: flex;
     background-color: var(--header);
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100px;
-    padding: 20px;
+    /* padding: 20px; */
     
 
 }    
 
 main {
-
     background-color: var(--main);
+    /* display: flex; */
+    margin: auto;
+    width: 80%;
+    
 }
 
 footer {
 
     background-color: var(--footer);
 }
+
+.container1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 100%;
+    height: 200px;
+}
+
 
 img {
 
@@ -46,3 +65,19 @@ button {
     background-color: white;
 }
 
+.flex-container {
+
+    display: flex;
+    
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.flex-figure {
+    flex-basis: 50%;
+
+}
+
+.flex-h1 {
+    flex-basis: 50%;
+}
