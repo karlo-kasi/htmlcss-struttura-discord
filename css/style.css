@@ -1,0 +1,32 @@
+:root{
+    --header: blue;
+    --main: white;
+    --footer: black;
+
+}
+
+
+
+
+
+header {
+    display: flex;
+    background-color: var(--header);
+    justify-content: space-between;
+
+}    
+
+img {
+
+    background-color: white;
+}
+
+nav{
+
+    background-color: white;
+}
+
+button {
+
+    background-color: white;
+}
